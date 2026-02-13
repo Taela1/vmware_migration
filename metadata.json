@@ -1,16 +1,16 @@
 {
-  "Org_ID": "",
-  "Name": "",
-  "Zone": "",
+  "org_id": "",
+  "name": "",
+  "zone": "",
   "deploy_target": "",
   "service_offering": "",
   "disk_size": "",
   "template_id": "",
   "ip_assignment": "",
-  "vTPM": "",
-  "Secureboot": "",
-  "UEFI": "",
-  "VSS": "",
+  "vtpm": "",
+  "secureboot": "",
+  "uefi": "",
+  "vss": "",
   "labels": [
     "",
     ""
