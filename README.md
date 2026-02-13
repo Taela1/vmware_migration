@@ -23,9 +23,9 @@ Type: string
 ### zone
 The name of the zone the VM should be imported to.
 Available zones:
-┼──────────┼
+
 │   NAME   │
-┼──────────┼
+|----------|
 │ at-vie-1 │
 │ at-vie-2 │
 │ bg-sof-1 │
@@ -34,7 +34,7 @@ Available zones:
 │ de-fra-1 │
 │ de-muc-1 │
 │ hr-zag-1 │
-┼──────────┼
+
 
 The zone is unique and mandatory.
 Type: string
@@ -48,9 +48,9 @@ Type: UUID
 ### service_offering
 The UUID of the service offering (t-shirt) for the VM.
 Available offerings:
-┼──────────────────────────────────────┼───────────────┼─────────────┼
+
 │                  ID                  │    FAMILY     │    SIZE     │
-┼──────────────────────────────────────┼───────────────┼─────────────┼
+|--------------------------------------|---------------|-------------|
 │ 71004023-bb72-4a97-b1e9-bc66dfce9470 │ standard      │ micro       │
 │ b6cd1ff5-3a2f-4e9d-a4d1-8988c1191fe8 │ standard      │ tiny        │
 │ 21624abb-764e-4def-81d7-9fc54b5957fb │ standard      │ small       │
@@ -72,7 +72,7 @@ Available offerings:
 │ 8a52e80d-b1d0-4efb-8059-a931fa33c5a1 │ standard      │ colossus    │
 │ ea24461a-41e8-49f1-a22a-0f00e3507604 │ cpu           │ titan48c    │
 │ 68dec7c8-7ae8-43b6-ad4a-d508152110fe │ cpu           │ colossus    │
-┼──────────────────────────────────────┼───────────────┼─────────────┼
+
 
 The service_offering is unique and mandatory.
 Type: UUID
@@ -86,9 +86,9 @@ Type: int
 ### template_id
 UUID of the template to use as basis for the VM. Can be a standard Exoscale template or a custom template used as placeholder.
 Available standard templates:
-┼──────────────────────────────────────┼─────────────────────────────────────────────────────┼─────────────────────────┼───────────────────────────────┼
+
 │                  ID                  │                        NAME                         │         FAMILY          │         CREATION DATE         │
-┼──────────────────────────────────────┼─────────────────────────────────────────────────────┼─────────────────────────┼───────────────────────────────┼
+|--------------------------------------|-----------------------------------------------------|-------------------------|-------------------------------|
 │ 14ba535f-1bf6-4da6-92b2-e15bcf8166f5 │ Airlock WAF 7.1                                     │ airlock waf             │ 2021-02-20 23:40:07 +0000 UTC │
 │ 2d77c172-3eb5-4227-9de5-b687b6f12f39 │ Linux Arch Rolling                                  │ arch                    │ 2026-01-27 23:25:22 +0000 UTC │
 │ 618cc381-ecfb-425f-9aa7-a32b8b915bcc │ Linux CentOS Stream 10 64-bit                       │ centos stream           │ 2026-01-27 22:28:52 +0000 UTC │
@@ -125,7 +125,7 @@ Available standard templates:
 │ 80b71d54-433c-4fac-aca7-68c7d35af1ea │ Windows Server 2022                                 │ windows                 │ 2026-01-15 14:23:55 +0000 UTC │
 │ f374fabb-5751-4239-9010-ebbe59ea008c │ Windows Server 2022 with SQL 2022                   │ windows server with sql │ 2026-01-15 14:27:01 +0000 UTC │
 │ 924de7f6-3f0a-4ade-9f72-6d9f180c4279 │ Windows Server 2025 with SQL 2022                   │ windows server with sql │ 2026-01-15 14:26:00 +0000 UTC │
-┼──────────────────────────────────────┼─────────────────────────────────────────────────────┼─────────────────────────┼───────────────────────────────┼
+
 
 The template_id is unique and mandatory.
 Type: UUID
