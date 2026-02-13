@@ -1,0 +1,22 @@
+{
+  "Org_ID": "",
+  "Name": "",
+  "Zone": "",
+  "deploy_target": "",
+  "service_offering": "",
+  "disk_size": "",
+  "template_id": "",
+  "ip_assignment": "",
+  "vTPM": "",
+  "Secureboot": "",
+  "UEFI": "",
+  "VSS": "",
+  "labels": [
+    "",
+    ""
+  ],
+  "private_networks": [
+    "",
+    ""    
+  ]
+}
