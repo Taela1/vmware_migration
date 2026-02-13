@@ -7,10 +7,10 @@
   "disk_size": "",
   "template_id": "",
   "ip_assignment": "",
-  "vtpm": "",
-  "secureboot": "",
-  "uefi": "",
-  "vss": "",
+  {"vtpm":true|false},
+  {"secureboot":true|false},
+  {"uefi":true|false},
+  {"vss":true|false},
   "labels": {
     "": "",
     "": ""
