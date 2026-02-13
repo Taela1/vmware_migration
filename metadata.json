@@ -11,10 +11,10 @@
   "secureboot": "",
   "uefi": "",
   "vss": "",
-  "labels": [
-    "",
-    ""
-  ],
+  "labels": {
+    "": "",
+    "": ""
+  },
   "private_networks": [
     "",
     ""    
