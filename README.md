@@ -3,7 +3,7 @@
 ## Alignment between metadata file and disk file
 
 The name of the disk file will be based on the name of the metadata file itself. Example: 
-Given "vltestt001.at.inside.json" as metdadata file the expected disk file needs to be named "vlttestt001.at.inside.qcow2" and be readable within the same source as the metadata file.
+Given "vlttest001.at.inside.json" as metdadata file the expected disk file needs to be named "vlttest001.at.inside.qcow2" and be readable within the same source as the metadata file.
 
 ## Description and examples
 
