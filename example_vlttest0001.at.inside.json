@@ -7,10 +7,10 @@
   "disk_size": "150",
   "template_id": "da19e989-af88-4c26-b14a-da9124eb151d",
   "ip_assignment": "private",
-  {"vtpm":false},
-  {"secureboot":false},
-  {"uefi":false},
-  {"vss":false},
+  "vtpm": false,
+  "secureboot": false,
+  "uefi": false,
+  "vss": false,
   "labels": {
     "costcenter": "1234",
     "contact": "some@one.com"
