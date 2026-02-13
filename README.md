@@ -51,9 +51,9 @@ The template_id is unique and mandatory.
 Type: UUID
 
 ### ip_assignment
-ipv4: First NIC will be attached to Exoscale network infrastructure and will receive a public IPv4 IP out of Exoscales pool via DHCP
-ipv6: First NIC will be attached to Exoscale network infrastructure and will receive a public IPv4 and IPv6 IP out of Exoscales pool via DHCP
-private: All NICs will be attached to Exoscale private networks configured. If no private networks configured VM will be deployed without NIC.
+ipv4: First NIC will be attached to Exoscale network infrastructure and will receive a public IPv4 IP out of Exoscales pool via DHCP  
+ipv6: First NIC will be attached to Exoscale network infrastructure and will receive a public IPv4 and IPv6 IP out of Exoscales pool via DHCP  
+private: All NICs will be attached to Exoscale private networks configured. If no private networks configured VM will be deployed without NIC  
 
 The ip_assignment is unique and mandatory.
 Type: string
