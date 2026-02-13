@@ -1,0 +1,26 @@
+{
+  "org_id": "ab305223-8461-43dd-ba3e-7cf4b11314c4",
+  "name": "vlttest001.at.inside",
+  "zone": "at-vie-2",
+  "deploy_target": "c86118ff-1882-46ac-9221-842e90483c49",
+  "service_offering": "b6e9d1e8-89fc-4db3-aaa4-9b4c5b1d0844",
+  "disk_size": "150",
+  "template_id": "da19e989-af88-4c26-b14a-da9124eb151d",
+  "ip_assignment": "private",
+  {"vtpm":false},
+  {"secureboot":false},
+  {"uefi":false},
+  {"vss":false},
+  "labels": {
+    "costcenter": "1234",
+    "contact": "some@one.com"
+  },
+  "private_networks": [
+    "c7e47a27-48ae-438a-8870-0eb1c0fbbb47",
+    "9e3cf5b4-bcf5-4119-af91-86d2d4e83e4b"    
+  ]
+  "security_groups": [
+    "97a7bbac-7b1f-4095-8bb0-4357f307c72e",
+    "eafd59b3-b86d-4923-8d7d-a0894508bf85"
+  ]
+}
