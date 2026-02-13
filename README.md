@@ -95,7 +95,7 @@ The private_networks are not mandatory and not unique
 Type: UUID
 
 ### security_groups
-Enter none or multiple UUIDs of security groups the VM should be attached to. Only necceary if "ip_assignment" is no private.
+Enter one or multiple UUIDs of security groups the VM should be attached to. Only necceary if "ip_assignment" is no private.
 
-The security_groups are not mandatory and not unique.
+The security_groups are mandatory and not unique.
 Type: UUID
