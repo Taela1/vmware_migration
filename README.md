@@ -97,5 +97,7 @@ Type: UUID
 ### security_groups
 Enter one or multiple UUIDs of security groups the VM should be attached to. Only necceary if "ip_assignment" is no private.
 
-The security_groups are mandatory and not unique.
+The security_groups are mandatory and not unique for ip_assigment "ipv4" and "ipv6".
+The security_groups must not be set if ip_assignment is "private"
+
 Type: UUID
